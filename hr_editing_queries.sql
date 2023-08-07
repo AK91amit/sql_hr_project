@@ -1,3 +1,5 @@
+-- data cleaning
+
 create database hr;
 
 use hr;
@@ -51,6 +53,8 @@ from hr;
 select count(*)
 from hr
 where age = 20;
+
+--tasks
 
 -- gender breakdown in company
 select gender, count(*)
